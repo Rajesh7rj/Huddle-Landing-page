@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+
+}
+
+.sec-1{
+  background-color:   hsl(193, 100%, 96%);
+  background-image: url("images/bg-hero-desktop.svg");
+}
+
+.nav{
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  line-height: 5;
+}
+
+#logo{
+  width: 300px;
+  margin-left: 50px;
+}
+.logo{
+  width: 250px;
+  margin-top: 3.5rem;
+}
+
+#btn-1{
+width: 300px;
+text-align: right;
+margin-right: 50px;
+}
+
+.btn-1{
+  border: none;
+  background-color: white;
+  margin-top: 3rem;
+  border-radius: 25px;
+  width: 250px;
+  height: 3.3rem;
+  box-shadow: 2px 2px 6px 2px hsl(195, 5%, 84%);
+}
+
+.btn-1:hover{
+  color: gray;
+}
+
+.main{
+display: flex;
+}
+
+.main-heading{
+  width: 40%;
+  text-align: left;
+  margin-top: 8%;
+  margin-left: 6%;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 3.5rem;
+  font-size: 2.4rem;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.mockups{
+  margin-top: 3rem;
+  margin-left: 4%;
+  margin-right: 5%;
+  width: 50%;
+  margin-bottom: 4rem;
+}
+
+.img-1{
+  width: 100%;
+}
+
+.para-1{
+  color: rgb(101, 101, 101);
+  line-height: 1.5;
+  font-size: 16px;
+  margin-top: 3rem;
+  margin-bottom:2rem;
+}
+
+.para-2{
+  line-height: 1.5;
+}
+
+.btn-2{
+  border: none;
+  color:  hsl(193, 100%, 96%);
+  background-color:  hsl(322, 100%, 66%);
+  border-radius: 25px;
+  width: 50%;
+  height: 3.5rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+button{
+  cursor: pointer;
+}
+.btn-2:hover{
+  background-color:  hsl(322, 96%, 47%);
+}
+
+
+/*          sec-2       */
+.sec-2{
+  margin-top: 10%;
+}
+.sec-2 p{
+  color:  hsl(208, 11%, 55%);
+  font-size: 16px;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6%;
+  margin-right: 6%;
+  width: 88%;
+  border-radius: 15px;
+  margin-bottom: 4%;
+  box-shadow:  3px 3px 15px 3px  hsl(195, 5%, 84%);
+}
+
+.d1, .d2{
+  margin: 10% ;
+  margin-left: 8%;
+  width: 40%;
+  text-align: left;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom:  1.5rem;
+}
+
+.d1-1{
+  width: 40%;
+  box-sizing: border-box;
+  padding: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.img-2{
+  width: 100%;
+}
+
+.d1-2{
+  width: 40%;
+  box-sizing: border-box;
+  padding: 4%;
+  display: flex;
+  align-items: center;
+}
+
+.sec-3{
+  margin-top: 10rem;
+}
+
+.box3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  width: 56%;
+  height: 18rem;
+  box-shadow:  1px -1px 5px 1px  hsl(195, 5%, 84%);
+  margin-left: 21.5%;
+  margin-right: 21.5%;
+  border-radius: 15px;
+}
+
+h3{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2rem;
+  margin-bottom: 5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-3{
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: none;
+  color:  hsl(193, 100%, 96%);
+  background-color:  hsl(322, 100%, 66%);
+  border-radius: 45px;
+  width: 50%;
+  height: 5rem;
+  margin-bottom: 10%;
+}
+.btn-3:hover{
+  background-color:   hsl(322, 96%, 47%);
+}
+.info{
+  display:flex;
+  padding-top: 10rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
+  position: relative;
+  top:10rem;
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(193, 100%, 96%);
+  z-index: -1;
+}
+
+
+.col1{
+  margin-left: 6%;
+  text-align: left;
+  width: 20%;
+}
+.location{
+  display: flex;
+}
+.col2{
+  margin-left: 6%;
+  text-align: left;
+  width: 15%;
+}
+
+.col3{
+  margin-left: 6%;
+  text-align: left;
+  width: 15%;
+}
+
+.fa-brands{
+  border-radius: 20px;
+ width: 12rem;
+}
+.col4_1{
+  display: flex;
+ 
+}
+.col4{
+  margin-left: 6%;
+  text-align: left;
+  width: 10%;
+}
+
+.copyrights{
+  color: white;
+  margin-top: 6%;
+  margin-left: 72%;
+}
+.icon-location{
+  height: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 3rem;
+  float: left;
+}
+
+.row p{
+  margin-bottom: 1rem;
+}
+.icon{
+  margin-right: 1rem;
+}
+
+.attribution {
+  
+  margin-top: 70px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+.attribution a{
+  color: hsl(240, 73%, 54%);
+}
+
+
+
+@media  (max-width:900px) {
+  
+  .logo{
+    width: 200px;
+
+  }
+  .btn-1{
+    width: 200px;
+  }
+  .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-heading{
+    width: 90%;
+    text-align: center;
+    margin-left:  0px;
+    margin-right: 0px;
+  }
+
+  .mockups{
+    width: 90%;
+    margin-left:  0px;
+    margin-right: 0px;
+  }
+
+  .box{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .box2{
+  flex-direction: column;  }
+  
+  .d1{
+    margin: 8% 0% ;
+    width: 80%;
+    text-align: center;
+  
+  }
+  .d1-1, .d1-2{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .box3{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 16rem;
+  }
+  h3{
+    margin-top: 5%;
+    font-size: 1.5rem;
+  }
+  
+  .btn-3{
+    width: 45%;
+    font-size: 1.1rem;
+    height: 4rem;
+  }
+  .attribution {
+    margin-top: 75px;}
+}
+
+@media  (max-width:600px){
+  #logo{
+    margin-left: 20px;
+  }
+  #btn-1{
+    margin-right: 20px;
+  }
+  .logo,.btn-1{
+    width: 180px;
+  }
+  .para-1{
+    font-size: 20px;
+  }
+  .box3{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 88%;
+    height: 13rem;
+  }
+  h3{
+    margin-top: 5%;
+    font-size: 1.1rem;
+  }
+  
+  .btn-3{
+    width: 60%;
+    font-size: 1rem;
+    height: 3rem;
+  }
+
+  .info{
+    flex-direction: column;
+  }
+
+  .col1,.col2,.col3{
+    width: 70%;
+  }
+  .col4{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .fa-brands{
+    margin-top: 10%;
+    margin-bottom: 50px;
+    width: 5rem;
+   }
+   .copyrights{
+    margin: 0;
+    margin-top: 22%;
+    text-align: center;
+   }
+   .attribution {
+  
+    margin-top: 55px;}
+}
+
+@media  (max-width:480px){
+  #logo{
+    margin-left: 20px;
+  }
+  #btn-1{
+    margin-right: 20px;
+  }
+  .logo{
+    width: 130px;
+  }
+
+  .btn-1{
+    width: 130px;
+    height: 40px;
+  }
+  
+  h1{
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+
+  .para-1{
+    margin-top: 1.2rem;
+    font-size: 16px;
+    margin-bottom: 1.2rem;
+  }
+  .btn-2{
+    width: 50%;
+    height: 2.5rem;
+  }
+  .fa-brands{
+    margin-top: 10%;
+    margin-bottom: 50px;
+    width: 5rem;
+   }
+   .attribution {
+  
+    margin-top: 65px;}
+}
